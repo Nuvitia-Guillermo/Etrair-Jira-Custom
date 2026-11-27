@@ -1,0 +1,29 @@
+name: Bug report
+description: Report unexpected behavior in the integration.
+title: "fix: "
+body:
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps or conditions to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Relevant environment and logs
+      description: Include versions and sanitized logs. Remove credentials, tokens, and personal data.

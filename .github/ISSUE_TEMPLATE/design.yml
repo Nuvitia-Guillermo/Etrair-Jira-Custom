@@ -1,0 +1,42 @@
+name: Design discussion
+description: Record an open flow, API, architecture, or widget question before implementation.
+title: "design: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this issue to capture a question or decision. Keep proposed behavior separate from confirmed behavior.
+  - type: textarea
+    id: objective
+    attributes:
+      label: Goal or question
+      description: What outcome or decision is needed?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and known constraints
+      description: Include relevant systems, actors, and constraints. Mark assumptions as assumptions.
+    validations:
+      required: true
+  - type: textarea
+    id: flow
+    attributes:
+      label: Proposed flow
+      description: Describe the expected sequence, if known. Leave open questions explicit.
+  - type: textarea
+    id: api
+    attributes:
+      label: API interactions
+      description: List known calls, payloads, and unresolved API questions, if known.
+  - type: textarea
+    id: widget
+    attributes:
+      label: Widget behavior
+      description: Describe the user's interaction and the expected widget response, if known.
+  - type: textarea
+    id: decisions
+    attributes:
+      label: Decisions and open points
+      description: Record what is agreed, what remains open, and who needs to decide.

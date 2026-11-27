@@ -1,0 +1,28 @@
+name: Feature or change
+description: Propose a scoped behavior change for the integration.
+title: "feat: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What user or operational need should this address?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected outcome
+      description: Describe observable behavior and acceptance criteria.
+    validations:
+      required: true
+  - type: input
+    id: design
+    attributes:
+      label: Related design decision
+      description: Link an accepted design discussion or decision record, if applicable.
+  - type: textarea
+    id: considerations
+    attributes:
+      label: API, widget, security, and versioning considerations
+      description: Include known impacts. Mark unresolved points as open questions.
